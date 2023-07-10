@@ -1,0 +1,33 @@
+[versions]
+agp = "8.2.0-alpha11"
+kotlin = "1.8.21"
+core-ktx = "1.10.1"
+
+appcompat = "1.6.1"
+material = "1.9.0"
+constraintlayout = "2.1.4"
+paging-runtime = "3.1.1"
+retrofit = "2.9.0"
+converter-gson = "2.9.0"
+lifecycle-viewmodel-ktx = "2.6.1"
+lifecycle-livedata-ktx = "2.6.1"
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converter-gson" }
+
+paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "paging-runtime" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[bundles]
+
