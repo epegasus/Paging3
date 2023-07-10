@@ -29,6 +29,9 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -48,4 +51,7 @@ dependencies {
 
     // Paging
     implementation(libs.paging.runtime)
+
+    // Koin (dependency-injection)
+    implementation(libs.koin.android)
 }
